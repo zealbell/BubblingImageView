@@ -15,7 +15,7 @@ A beautiful ImageView that bubbles soapily!!!
 ```xml
    dependencies {
         implementation 'com.github.54LiNKeR:BubblingImageView:1.0.0'
-   }
+    }
 ```
 
 > XML
