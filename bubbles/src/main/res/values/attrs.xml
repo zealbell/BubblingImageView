@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="BubblingImageView">
+        <attr name="Length" format="string"/>
+        <attr name="Ox" format="integer"/>
+        <attr name="Oy" format="integer"/>
+        <attr name="SRC_IN" format="boolean"/>
+        <attr name="Centralise" format="boolean"/>
+        <attr name="BubbleScale" format="boolean"/>
+    </declare-styleable>
+</resources>
