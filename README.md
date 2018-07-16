@@ -24,12 +24,16 @@ A beautiful ImageView that bubbles soapily!!!
         <linkersoft.blackpanther.bubbles.BubblingImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:id="@+id/twerk"
-             app:Length="180dp"
-             app:SRC_IN="false"
-             app:Ox="0"
-             app:Oy="0"
-             app:Centralise="true"
-             app:BubbleScale="false"/>
+            android:layout_gravity="center"
+            android:id="@+id/bubbler"
+            android:src="@drawable/blackpanther"
+            app:Length="120dp"
+            app:SRC_IN="true"
+            app:Ox="0"
+            app:Oy="0"
+            app:Centralise="true"
+            app:BubbleScale="true"
+            />
+
 ```
 
