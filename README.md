@@ -40,4 +40,4 @@ A beautiful ImageView that bubbles soapiely!!!
 
   call `setOnclickListener(bubbleClickListener bubbleListener)*` in order to listen for clicks
 
-   <i style="color: #A8A800">as</i>
+   <i style="color: #FF0000">as</i>
