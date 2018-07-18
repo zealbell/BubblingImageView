@@ -37,3 +37,6 @@ A beautiful ImageView that bubbles soapiely!!!
 
 ```
 
+> JAVA
+
+  call `setOnclickListener(bubbleClickListener bubbleListener)` in order to listen for clicks
