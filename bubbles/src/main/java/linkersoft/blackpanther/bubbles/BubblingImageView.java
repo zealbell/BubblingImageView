@@ -52,7 +52,7 @@ public class BubblingImageView extends ImageView {
         TypedArray kqo =context.getTheme().obtainStyledAttributes(attrs, R.styleable.BubblingImageView, 0, 0);
 
         try{
-            String tmp=kqo.getString(R.styleable.BubblingImageView_Length);
+            String tmp=kqo.getString(R.styleable.BubblingImageView_Diameter);
             if(tmp!=null)length= dp2px(Integer.parseInt(tmp.split("dp")[0]),context);
             else length=_attrs.getDimensionPixelSize(0,0);
             Ox=kqo.getInteger(R.styleable.BubblingImageView_Ox,0);
