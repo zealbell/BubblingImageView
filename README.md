@@ -14,7 +14,7 @@ A beautiful ImageView that bubbles soapiely!!!
 
 ```xml
    dependencies {
-        implementation 'com.github.54LiNKeR:BubblingImageView:1.0.0'
+        implementation 'com.github.54LiNKeR:BubblingImageView:2.0.0'
     }
 ```
 
@@ -38,4 +38,6 @@ A beautiful ImageView that bubbles soapiely!!!
 
 > JAVA
 
-  call `*setOnclickListener(bubbleClickListener bubbleListener)*` in order to listen for clicks
+  call `setOnclickListener(bubbleClickListener bubbleListener)*` in order to listen for clicks
+
+   <i style="color: #A8A800">as</i>
