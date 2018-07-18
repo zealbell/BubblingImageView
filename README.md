@@ -27,14 +27,13 @@ A beautiful ImageView that bubbles soapiely!!!
             android:layout_gravity="center"
             android:id="@+id/bubbler"
             android:src="@drawable/blackpanther"
-            app:Length="120dp"
+            app:Diameter="120dp"
             app:SRC_IN="true"
             app:Ox="0"
             app:Oy="0"
             app:Centralise="true"
             app:BubbleScale="true"
             />
-
 ```
 
 > JAVA
