@@ -15,6 +15,7 @@ import android.graphics.Path;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
+import android.support.annotation.Nullable;
 import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.util.AttributeSet;
 import android.view.View;
@@ -34,6 +35,7 @@ public class BubblingImageView extends ImageView {
     private bubbleClickListener bubbleListener;
     private Canvas bubbleVerse;
     private int bubbState,Ox,Oy,length;
+    private View.OnClickListener pathClick;
 
 
     public BubblingImageView(Context context, AttributeSet attrs){
@@ -145,7 +147,7 @@ public class BubblingImageView extends ImageView {
         });
         bubble.setInterpolator(new FastOutSlowInInterpolator());
 
-        View.OnClickListener pathClick;
+
         if(bubbleScaling){
             Matrix m0=new Matrix(),m1=new Matrix();
             m1.postScale(2f,2f,getWidth()/2,getHeight()/2);
@@ -282,6 +284,11 @@ public class BubblingImageView extends ImageView {
     }
     public void setOnclickListener(bubbleClickListener bubbleListener){
         this.bubbleListener =bubbleListener;
+    }
+
+    @Override
+    public void setOnClickListener(@Nullable OnClickListener l) {
+        if(pathClick==null)super.setOnClickListener(l);
     }
 
     private class PantherEvaluator implements TypeEvaluator<BubblePanther> {
