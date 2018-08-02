@@ -12,7 +12,8 @@
         android:layout_gravity="center"
         android:id="@+id/bubbler"
         android:src="@drawable/blackpanther"
-        app:Diameter="120dp"
+        android:scaleType="centerCrop"
+        app:Diameter="200dp"
         app:SRC_IN="true"
         app:Ox="0"
         app:Oy="0"
@@ -21,3 +22,5 @@
         />
 
 </FrameLayout>
+
+

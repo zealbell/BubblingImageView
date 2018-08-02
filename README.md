@@ -39,6 +39,6 @@ A beautiful ImageView that bubbles soapiely(>!!!<).
 > JAVA
 
   call __*`setOnclickListener(bubbleClickListener bubbleListener)`*__ in order to listen for clicks
-  
-  
+
+
   ![LiNKeR](https://github.com/54LiNKeR/54LiNKeR.github.io/blob/master/shots/%23LiNKeR.png)
