@@ -6,7 +6,9 @@ A beautiful ImageView that bubbles soapiely(>!!!<).
 
 ## Appearance
 
-![Demo](shots/appearance.gif)
+|   |    |
+|:---:| :---:
+| ![Demo](shots/appearance.gif) | ![Demo](shots/bubby.gif) |
 
 ## Quick Start
 
@@ -14,7 +16,7 @@ A beautiful ImageView that bubbles soapiely(>!!!<).
 
 ```xml
    dependencies {
-        implementation 'com.github.54LiNKeR:BubblingImageView:2.0.0'
+        implementation 'com.github.54LiNKeR:BubblingImageView:3.0.0'
     }
 ```
 
