@@ -18,6 +18,7 @@ import android.graphics.Rect;
 import android.support.annotation.Nullable;
 import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -305,7 +306,7 @@ public class BubblingImageView extends ImageView {
 
     @Override
     public void setOnClickListener(@Nullable OnClickListener l) {
-        if(pathClick==null)super.setOnClickListener(l);
+        if(pathClick!=null)super.setOnClickListener(l);
     }
 
     private class PantherEvaluator implements TypeEvaluator<BubblePanther> {
