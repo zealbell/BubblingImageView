@@ -2,7 +2,7 @@
 
 BubblingImageView
 =============
-A beautiful ImageView that bubbles soapiely(>!!!<).
+A beautiful ImageView that can take a great ton of...     (sh*t!!! u guessed right)
 
 ## Appearance
 
