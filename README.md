@@ -8,7 +8,7 @@ A beautiful ImageView that can take a great ton of...        (sh*t!!!)
 
 |   |    |
 |:---:| :---:
-| ![Demo](shots/appearance.gif) | ![Demo](shots/bubby.gif) |
+| | ![Demo](shots/bubby.gif) |
 
 ## Quick Start
 
