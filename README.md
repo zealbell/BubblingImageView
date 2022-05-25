@@ -4,7 +4,7 @@
 
 BubblingImageView
 =============
-A beautiful ImageView that can take a great ton of...        (sh*t!!!)
+A beautiful ImageView made originally from vibranium stolen from WAKANDA (no one was caught in the process neither was anyone injured)
 
 ## Appearance
 
