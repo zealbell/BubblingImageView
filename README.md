@@ -4,7 +4,9 @@
 
 BubblingImageView
 =============
-A beautiful ImageView made originally from vibranium stolen from WAKANDA (no one was caught in the process of stealing it neither was anyone injured)
+This ImageView was crafted from 100% vibranium—smuggled out of Wakanda during a background thread. No exceptions thrown, no panics raised.
+
+Yes, it’s vibranium-backed. Tap it. You’ll feel the frames per second.
 
 ## Appearance
 
