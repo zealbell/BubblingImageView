@@ -8,6 +8,9 @@ This ImageView was crafted from 100% vibranium—smuggled out of Wakanda during 
 
 Yes, it’s vibranium-backed. Tap it. You’ll feel the frames per second.
 
+> ⚠️ The license section may contain material that induces psychological discomfort or second thoughts.
+By continuing, you acknowledge that you have been sufficiently cautioned and waive the right to claim surprise.
+
 ## Appearance
 
 |   |    |
